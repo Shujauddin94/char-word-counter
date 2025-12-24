@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 60vh;
+    width: 40vw;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 500px;
+
+}
+.box{
+    /* margin: 50px;
+    padding: 30px; */
+    height: 10vh;
+    text-align: center;
+    border: 2px solid black;
+    width: 10vw;
+    margin: 30px;
+    font-size: larger;
+}
+.text{
+    height: 20vh;
+    width: 35vw;
+    font-size: larger;
+    
+}
+input::placeholder{
+    text-align: center;
+}
